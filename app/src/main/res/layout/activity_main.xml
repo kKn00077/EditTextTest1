@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="kn0077.kr.hs.emirim.edittexttest1.MainActivity"
-    android:orientation="vartical"
+    android:orientation="vertical"
     >
 
     <TextView
@@ -19,13 +19,13 @@
     <EditText
         android:id="@+id/edit1"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:hint="성명을 입력해 주세요."
         />
 
     <Button
         android:id="@+id/but_ok"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="확인"
         />
